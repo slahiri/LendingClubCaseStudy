@@ -1,5 +1,5 @@
 # Lending Club
-> Outline a brief description of your project.
+> Lending Club Case Study. (more details to come)
 
 
 ## Table of Contents
@@ -42,7 +42,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@slahiri] - feel free to contact me!
+Created by @slahiri - feel free to contact me!
 
 
 <!-- Optional -->
