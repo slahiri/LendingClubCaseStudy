@@ -1,5 +1,5 @@
-# Lending Club
-> Lending Club Case Study. (more details to come)
+# Lending Club Case Study
+> The core obkective of this Case Study is to apply the learnings of EDA
 
 
 ## Table of Contents
@@ -7,6 +7,7 @@
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
+* [Glossary](#glossary)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -33,6 +34,9 @@
 - library - version 3.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Glossary
+- EDA - Exploratory Data Analytics
+
 
 ## Acknowledgements
 Give credit here.
