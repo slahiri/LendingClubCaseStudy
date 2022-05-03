@@ -46,6 +46,11 @@ The data given below contains the information about past loan applicants and whe
    * Potential borrower requests for loan amount (loan_amnt)
    * The approver approves/rejects an amount based on past history/risk (funded_amnt)
    * The final amount offered as loan by the investor (funded_amnt_inv)
+* The following types of columns will be ignored in the analysis
+   * Null columns - The columns haveing consistent null values across the rows and will be ignored
+   * Constant values - The columns having same values across the rows will be ignored as they wont contribute to the analysis
+   * Redundant columns - The columns which are redundant example the url is one on one derivation of the loan id
+   * 
 
 ### Approach / Workflow
 
