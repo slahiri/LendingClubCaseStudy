@@ -35,12 +35,17 @@ In other words, **the company wants to understand the driving factors (or driver
 The data given below contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 * The dataset reflects loans post approval, thus does not represent any information on the rejection criteria process
-* Overall objective will be to observe key leading indicaters (driver variables) in the dataset, which contribute to defaulters 
-* Use the analysis as a the foundation of the hypothesis
+  * Overall objective will be to observe key leading indicaters (driver variables) in the dataset, which contribute to defaulters 
+  * Use the analysis as a the foundation of the hypothesis
+* Loan Status - Key Leading Attribute (loan_status). The column has three distinct values
+  * Fully-Paid - The customer has successfuly paid the loan
+  * Charged-Off - The customer is "Charged-Off" ir has "Defaulted"
+  * Current - These customers, the loan is currently in progress and cannot contribute to conclusive evidence if the customer will default of pay in future
+    *  For the given case study, "Current" status rows will be ignored
 * The overall loan process is represented by three steps
    * Potential borrower requests for loan amount (loan_amnt)
    * The approver approves/rejects an amount based on past history/risk (funded_amnt)
-   * The final amount offered as loan by the investor (funded_amnt_inv )
+   * The final amount offered as loan by the investor (funded_amnt_inv)
 
 ### Approach / Workflow
 
