@@ -80,9 +80,11 @@ The data given below contains the information about past loan applicants and whe
 - [Anaconda - Version 2.1.4]()
 
 
-## Acknowledgements
+## Acknowledgements and References
 - The project references insights and inferences from live presentation given by [Aditya Bhattacharya](https://www.linkedin.com/in/aditya-bhattacharya-b59155b6/)
 - The project reference course materieals from upGrads curriculm 
+- [](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)
+- [](https://aditya-bhattacharya.net/2021/09/18/daily-dose-of-data-science-day-5-attractive-data-visualizations-in-python-using-matplotlib-styles-and-plotly)
 
 ## Glossary
 - EDA - Exploratory Data Analytics
