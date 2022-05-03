@@ -3,8 +3,7 @@
 ## Table of Contents
 * [Problem Statement](#problem-statement)
 * [Objectives](#objectives)
-* [Data Set](#dat-aset)
-* [General Info](#general-information)
+* [Dataset Analysis](#dataset-analysis)
 * [Conclusions](#conclusions)
 * [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
@@ -31,7 +30,7 @@ If one is able to *identify these risky loan applicants*, then such loans can be
 
 In other words, **the company wants to understand the driving factors (or driver variables)** behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
-## Data Set
+## Dataset Analysis
 The data given below contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 * The dataset reflects loans post approval, thus does not represent any information on the rejection criteria process
@@ -72,6 +71,12 @@ The given columns are leading attributes which will contribute to the overall an
    * **Name and Description Columns** - For the perspective of current case study, the name or description of the company will not contribute to analysis and will be ignored. In future, NLP can be applied to description to gain intent and attributes. For this case study, it will be out of scope.
    * **Customer Behaviour Columns** - Columns which describes customer behaviour will not contribute to the analysis. The current analysis is at the time of loan application but the customer behaviour variables generate post the approval of loan applications. Thus these attributes wil not be considered towards the loan approval/rejection process.
    * Granular Data - Columns which describe next level of details which may not be required for the analysis. For example grade may be relevant for creating business outcomes and visualizations, sub grade is be very granular and will not be used in the analysis
+
+### Ignored Rows and Columns because of missing data
+*  Columns with high percentage of missing values will be dropped (60% above for this case study)
+*  Columns with less percentage of missing value will be imputed
+*  Rows with high percentage of missing values will be removed (60% above for this case study)
+
 
 ### Approach / Workflow
 
