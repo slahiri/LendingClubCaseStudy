@@ -76,6 +76,8 @@ The data given below contains the information about past loan applicants and whe
 - [pandas - Version 1.4.2](https://github.com/pandas-dev/pandas)
 - [matplotlib - Version 3.5.2](https://github.com/matplotlib)
 - [seaborn - Version 0.11.2](https://github.com/seaborn)
+- [Jupyter Notebook - Version 6.4.5]()
+- [Anaconda - Version 2.1.4]()
 
 
 ## Acknowledgements
