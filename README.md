@@ -55,6 +55,7 @@ The given columns are leading attributes, or **predictors**. These attributes ar
   * Home Ownership (home_ownership)
   * Employment Length (emp_length)
   * Debt to Income (dti)
+  * State (addr_state) - Can be used to create a generic demographic analysis
 * **Loan Attributes**
   * Loan Ammount (loan_amt)
   * Grade (grade)
@@ -62,6 +63,8 @@ The given columns are leading attributes, or **predictors**. These attributes ar
   * Loan Date (issue_date)
   * Purpose of Loan (purpose)
   * Verification Status (verification_status)
+  * Interest Rate (int_rate)
+  * Installment (installment)
 * **Customer Behaviour**
   * These attributes are generated once the loan is approved. Since these values are not available at the time of loan approval, they cannot be used to predict the loan pass or fail outcomes
 
