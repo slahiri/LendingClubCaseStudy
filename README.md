@@ -29,9 +29,9 @@ It specialises in lending various types of loans to urban customers. When the co
 
 Like most other lending companies, *lending loans to ‘risky’* applicants is the largest source of financial loss *(called credit loss)*. The credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed.
 
-In other words, borrowers who default cause the largest amount of loss to the lenders. In this case, the customers labelled as *'charged-off' are the 'defaulters'*.
+In other words, **borrowers** who **default** cause the largest amount of **loss to the lenders**. In this case, the customers labelled as *'charged-off' are the 'defaulters'*.
 
-The core objective of the excercise is to help the company minimise the credit loss. There are two potential sources of credit loss:
+The core objective of the excercise is to **help the company minimise the credit loss**. There are two potential sources of **credit loss** are:
 * Applicant **likely to repay the loan**, such an applicant will bring in profit to the company with interest rates.** Rejecting such applicants will result in loss of business**.
  * Applicant **not likely to repay** the loan, i.e. and will potentially default, then approving the loan may lead to a financial loss* for the company
 
