@@ -37,22 +37,41 @@ The data given below contains the information about past loan applicants and whe
 * The dataset reflects loans post approval, thus does not represent any information on the rejection criteria process
   * Overall objective will be to observe key leading indicaters (driver variables) in the dataset, which contribute to defaulters 
   * Use the analysis as a the foundation of the hypothesis
+* The overall loan process is represented by three steps
+   * Potential borrower requests for loan amount (loan_amnt)
+   * The approver approves/rejects an amount based on past history/risk (funded_amnt)
+   * The final amount offered as loan by the investor (funded_amnt_inv)
+ 
+### Leading Attribute
 * Loan Status - Key Leading Attribute (loan_status). The column has three distinct values
   * Fully-Paid - The customer has successfuly paid the loan
   * Charged-Off - The customer is "Charged-Off" ir has "Defaulted"
   * Current - These customers, the loan is currently in progress and cannot contribute to conclusive evidence if the customer will default of pay in future
     *  For the given case study, "Current" status rows will be ignored
-* The overall loan process is represented by three steps
-   * Potential borrower requests for loan amount (loan_amnt)
-   * The approver approves/rejects an amount based on past history/risk (funded_amnt)
-   * The final amount offered as loan by the investor (funded_amnt_inv)
+
+### Important Columns
+The given columns are leading attributes which will contribute to the overall analysis based on understanding of the lending domain.
+* Loan Ammount (loan_amt)
+* Grade (grade)
+* Term (term)
+* Debt to Income (dti)
+* Home Ownership (home_ownership)
+* Employment Length (emp_length)
+* Loan Date (issue_date)
+* Annual Income (annual_inc)
+* Purpose of Loan (purpose)
+* Verification Status (verification_status)
+
+
+### Ignored Columns
 * The following types of columns will be ignored in the analysis. This is a generic categorization of the columns which will be ignored in our approach and not the full list.
-   * Null columns - The columns haveing consistent null values across the rows and will be ignored
-   * Constant values - The columns having same values across the rows will be ignored as they wont contribute to the analysis
-   * Redundant columns - The columns which are redundant example the url is one on one derivation of the loan id
-   * ID Columns - The columns which represent some ID of the row data and does not have any corellation with leading attribute(loan_status) will be ignored eg. loan_id, member_id etc.
-   * Name and Description Columns - For the perspective of current case study, the name or description of the company will not contribute to analysis and will be ignored. In future, NLP can be applied to description to gain intent and attributes. For this case study, it will be out of scope.
-   * Customer Behaviour - Columns which describes customer behaviour will not contribute to the analysis. The current analysis is at the time of loan application but the customer behaviour variables generate post the approval of loan applications. Thus these attributes wil not be considered towards the loan approval/rejection process.
+   * **Null Columns** - The columns haveing consistent null values across the rows and will be ignored
+   * **Constant Columns** - The columns having same values across the rows will be ignored as they wont contribute to the analysis
+   * **Redundant Columns** - The columns which are redundant example the url is one on one derivation of the loan id
+   * **ID Columns** - The columns which represent some ID of the row data and does not have any corellation with leading attribute(loan_status) will be ignored eg. loan_id, member_id etc.
+   * **Name and Description Columns** - For the perspective of current case study, the name or description of the company will not contribute to analysis and will be ignored. In future, NLP can be applied to description to gain intent and attributes. For this case study, it will be out of scope.
+   * **Customer Behaviour Columns** - Columns which describes customer behaviour will not contribute to the analysis. The current analysis is at the time of loan application but the customer behaviour variables generate post the approval of loan applications. Thus these attributes wil not be considered towards the loan approval/rejection process.
+   * Granular Data - Columns which describe next level of details which may not be required for the analysis. For example grade may be relevant for creating business outcomes and visualizations, sub grade is be very granular and will not be used in the analysis
 
 ### Approach / Workflow
 
