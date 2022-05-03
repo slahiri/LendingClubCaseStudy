@@ -49,17 +49,21 @@ The data given below contains the information about past loan applicants and whe
     *  For the given case study, "Current" status rows will be ignored
 
 ### Important Columns
-The given columns are leading attributes which will contribute to the overall analysis based on understanding of the lending domain.
-* Loan Ammount (loan_amt)
-* Grade (grade)
-* Term (term)
-* Debt to Income (dti)
-* Home Ownership (home_ownership)
-* Employment Length (emp_length)
-* Loan Date (issue_date)
-* Annual Income (annual_inc)
-* Purpose of Loan (purpose)
-* Verification Status (verification_status)
+The given columns are leading attributes, or **predictors**. These attributes are available at the time of the loan application and strongly helps in **prediction** of loan pass or rejection. Key attributes
+* **Customer Demographics**
+  * Annual Income (annual_inc)
+  * Home Ownership (home_ownership)
+  * Employment Length (emp_length)
+  * Debt to Income (dti)
+* **Loan Attributes**
+  * Loan Ammount (loan_amt)
+  * Grade (grade)
+  * Term (term)
+  * Loan Date (issue_date)
+  * Purpose of Loan (purpose)
+  * Verification Status (verification_status)
+* **Customer Behaviour**
+  * These attributes are generated once the loan is approved. Since these values are not available at the time of loan approval, they cannot be used to predict the loan pass or fail outcomes
 
 
 ### Ignored Columns
