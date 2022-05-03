@@ -52,6 +52,7 @@ The data given below contains the information about past loan applicants and whe
    * Redundant columns - The columns which are redundant example the url is one on one derivation of the loan id
    * ID Columns - The columns which represent some ID of the row data and does not have any corellation with leading attribute(loan_status) will be ignored eg. loan_id, member_id etc.
    * Name and Description Columns - For the perspective of current case study, the name or description of the company will not contribute to analysis and will be ignored. In future, NLP can be applied to description to gain intent and attributes. For this case study, it will be out of scope.
+   * Customer Behaviour - Columns which describes customer behaviour will not contribute to the analysis. The current analysis is at the time of loan application but the customer behaviour variables generate post the approval of loan applications. Thus these attributes wil not be considered towards the loan approval/rejection process.
 
 ### Approach / Workflow
 
