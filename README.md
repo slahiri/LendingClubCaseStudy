@@ -1,24 +1,13 @@
 # Lending Club Case Study
-> The core obkective of this Case Study is to apply the learnings of EDA
-
-## Table of Contents
-* [Problem Statement](#problem-statement)
-* [Introduction](#introduction)
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-* [Glossary](#glossary)
-
-# Lending Club Case Study
-> The core obkective of this Case Study is to apply the learnings of EDA
 
 ## Table of Contents
 * [Problem Statement](#problem-statement)
 * [Objectives](#objectives)
+* [Data Set](#dat-aset)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Team](#team)
 * [Acknowledgements](#acknowledgements)
 * [Glossary](#glossary)
 
@@ -40,19 +29,18 @@ The goal is to *identify these risky loan applicants*, then such loans can be re
 
 If one is able to *identify these risky loan applicants*, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.
 
-In other words, *the company wants to understand the driving factors (or driver variables)* behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
+In other words, **the company wants to understand the driving factors (or driver variables)** behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
-### Data Set
+## Data Set
 The data given below contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
-Few additional information of the data set
-* The dataset reflects loans post they were approved, thus this does not represent any information on the rejection criteria. Overall objective will be to observe key leading indicaters which contribute to defaulters and use tha as the foundation of the hypothesis
+* The dataset reflects loans post approval, thus does not represent any information on the rejection criteria process
+* Overall objective will be to observe key leading indicaters (driver variables) in the dataset, which contribute to defaulters 
+* Use the analysis as a the foundation of the hypothesis
 * The overall loan process is represented by three steps
--  Potential borrower requests for loan amount (loan_amnt)
-- The approver approves/rejects an amount based on past history/risk (funded_amnt)
-- The final amount offered as loan by the investor (funded_amnt_inv )
-
-
+   * Potential borrower requests for loan amount (loan_amnt)
+   * The approver approves/rejects an amount based on past history/risk (funded_amnt)
+   * The final amount offered as loan by the investor (funded_amnt_inv )
 
 ### Approach / Workflow
 
@@ -155,28 +143,20 @@ The data given below contains the information about past loan applicants and whe
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-## Glossary
-- EDA - Exploratory Data Analytics
+- [Python - Version 3.8](https://www.python.org/download/releases/3.0/)
+- [numpy - Version 1.22.3](https://github.com/numpy)
+- [pandas - Version 1.4.2](https://github.com/pandas-dev/pandas)
+- [matplotlib - Version 3.5.2](https://github.com/matplotlib)
+- [seaborn - Version 0.11.2](https://github.com/seaborn)
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- The project references insights and inferences from live presentation given by [Aditya Bhattacharya](https://www.linkedin.com/in/aditya-bhattacharya-b59155b6/)
+- The project reference course materieals from upGrads curriculm 
 
+## Glossary
+- EDA - Exploratory Data Analytics
 
-## Contact
-Created by @slahiri - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Team
+* [Manoj Kumar Shukla]()
+* [Siddhartha Lahiri](https://www.linkedin.com/in/lahiris/)
