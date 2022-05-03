@@ -51,13 +51,13 @@ The data given below contains the information about past loan applicants and whe
 ### Important Columns
 The given columns are leading attributes, or **predictors**. These attributes are available at the time of the loan application and strongly helps in **prediction** of loan pass or rejection. Key attributes
 * **Customer Demographics**
-  * Annual Income (annual_inc)
-  * Home Ownership (home_ownership)
-  * Employment Length (emp_length)
-  * Debt to Income (dti)
-  * State (addr_state) - Can be used to create a generic demographic analysis
+  * Annual Income (annual_inc) - Annual income of the customer. Generally higher the income, more chances of loan pass
+  * Home Ownership (home_ownership) - Wether the customer owns a home or stays rented. Owning a home adds a collateral which increases the chances of loan pass.
+  * Employment Length (emp_length) - Employment tenure of a customer (this is overall tenure). Higher the tenure, more financial stablity, thus higher chances of loan pass
+  * Debt to Income (dti) - The percentage of the salary which goes towards paying loan. Lower DTI, higher the chances of a loan pass.
+  * State (addr_state) - Location of the customer. Can be used to create a generic demographic analysis. There could be higher delinquency or defaulters demographicaly. 
 * **Loan Attributes**
-  * Loan Ammount (loan_amt)
+  * Loan Ammount (loan_amt) 
   * Grade (grade)
   * Term (term)
   * Loan Date (issue_date)
@@ -65,6 +65,8 @@ The given columns are leading attributes, or **predictors**. These attributes ar
   * Verification Status (verification_status)
   * Interest Rate (int_rate)
   * Installment (installment)
+  * Public Records (public_rec) - Derogatory Public Records. The value adds to the risk to the loan. Higher the value, lower the success rate.
+  * Public Records Bankruptcy  (public_rec_bankruptcy) - Number of bankruptcy records publocally available for the customer. Higher the value, lower is the success rate.
 * **Customer Behaviour**
   * These attributes are generated once the loan is approved. Since these values are not available at the time of loan approval, they cannot be used to predict the loan pass or fail outcomes
 
