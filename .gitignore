@@ -10,6 +10,8 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+./data/*.csv
+
 # IPython
 profile_default/
 ipython_config.py
