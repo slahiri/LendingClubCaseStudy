@@ -10,8 +10,8 @@
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-data
-*/data/*
+.data
+*/.data/*
 
 # IPython
 profile_default/
