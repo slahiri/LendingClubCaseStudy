@@ -129,6 +129,7 @@ The given columns are leading attributes, or **predictors**. These attributes ar
 - The project references insights and inferences from live presentation given by [Aditya Bhattacharya](https://www.linkedin.com/in/aditya-bhattacharya-b59155b6/)
 - The project reference course materieals from upGrads curriculm 
 - [What is Exploratory Data Analysis? by Prasad Patil](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15)
+- https://stackoverflow.com/questions/56611698/pandas-how-to-read-csv-file-from-google-drive-public
 
 ## Glossary
 - EDA - Exploratory Data Analytics
