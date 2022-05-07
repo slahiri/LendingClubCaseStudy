@@ -67,8 +67,6 @@ The given columns are leading attributes, or **predictors**. These attributes ar
   * Installment (installment)
   * Public Records (public_rec) - Derogatory Public Records. The value adds to the risk to the loan. Higher the value, lower the success rate.
   * Public Records Bankruptcy  (public_rec_bankruptcy) - Number of bankruptcy records publocally available for the customer. Higher the value, lower is the success rate.
-* **Customer Behaviour**
-  * These attributes are generated once the loan is approved. Since these values are not available at the time of loan approval, they cannot be used to predict the loan pass or fail outcomes
 
 
 ### Ignored Columns
