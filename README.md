@@ -38,12 +38,13 @@ In other words, **the company wants to understand the driving factors (or driver
 
 
 ## Technologies Used
-- [Python - Version 3.8](https://www.python.org/download/releases/3.0/)
-- [numpy - Version 1.22.3](https://github.com/numpy)
+- [Python - Version 3.9.12](https://www.python.org/download/releases/3.0/)
+- [numpy - Version 1.21.5](https://github.com/numpy)
 - [pandas - Version 1.4.2](https://github.com/pandas-dev/pandas)
-- [matplotlib - Version 3.5.2](https://github.com/matplotlib)
+- [matplotlib - Version 3.5.1](https://github.com/matplotlib)
 - [seaborn - Version 0.11.2](https://github.com/seaborn)
-- [Jupyter Notebook - Version 6.4.5]()
+- [Jupyter Notebook - Version 3.3.2]()
+- [JupyterLab - Version 6.4.11]()
 - [Anaconda - Version 2.1.4]()
 
 
