@@ -47,12 +47,19 @@ The data given below contains the information about past loan applicants and whe
 
 ### Analysis based on Domain Understanding
 
-#### Leading Attribute
+#### Leading Attribute (loan_status)
 - *Loan Status* - Key Leading Attribute (*loan_status*). The column has three distinct values
     - Fully-Paid - The customer has successfuly paid the loan
     - Charged-Off - The customer is "Charged-Off" ir has "Defaulted"
     - Current - These customers, the loan is currently in progress and cannot contribute to conclusive evidence if the customer will default of pay in future
         - For the given case study, "Current" status rows will be ignored
+
+#### Decision Matrix (loan_status)
+* *Loan Accepted* - Three Scenarios
+    * *Fully Paid* -  Applicant has fully paid the loan (the principal and the interest rate)
+    * *Current* - Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
+    * *Charged-off* - Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has *defaulted* on the loan 
+* *Loan Rejected* - The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 #### Important Columns
 The given columns are leading attributes, or **predictors**. These attributes are available at the time of the loan application and strongly helps in **prediction** of loan pass or rejection. Key attributes *Some of these columns may get dropped due to empty data in the dataset*
@@ -143,13 +150,6 @@ The given columns are leading attributes, or **predictors**. These attributes ar
 *  Columns with high percentage of missing values will be dropped **(65% above for this case study)**
 *  Columns with less percentage of missing value will be imputed
 *  Rows with high percentage of missing values will be removed **(65% above for this case study)**
-
-### Decision Matrix
-* *Loan Accepted* - Three Scenarios
-    * *Fully Paid* -  Applicant has fully paid the loan (the principal and the interest rate)
-    * *Current* - Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
-    * *Charged-off* - Applicant has not paid the instalments in due time for a long period of time, i.e. he/she has *defaulted* on the loan 
-* *Loan Rejected* - The company had rejected the loan (because the candidate does not meet their requirements etc.). Since the loan was rejected, there is no transactional history of those applicants with the company and so this data is not available with the company (and thus in this dataset)
 
 ## Approach
 - Step 0 - Data Cleaning & Manipulation Checklist
